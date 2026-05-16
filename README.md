@@ -288,7 +288,7 @@ Notable trade-offs documented as they arose. Each decision was made consciously,
 
 ## 🙋 About
 
-Built by **Rajive [Last Name]** as a portfolio project for senior AI engineering roles. Connect on [LinkedIn](https://linkedin.com/in/your-handle) or open an issue.
+Built by **Rajive Pai** as a portfolio project for senior AI engineering roles. Connect on [LinkedIn](https://www.linkedin.com/in/rajive-pai/) or open an issue.
 
 This is intentionally over-documented to demonstrate the engineering practices expected of senior AI engineers in enterprise environments: explicit trade-offs, reproducibility, evaluation rigor, and adaptability when reality diverges from the plan.
 
