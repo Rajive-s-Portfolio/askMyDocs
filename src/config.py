@@ -11,23 +11,26 @@ Usage:
     from src.config import settings
     print(settings.stripe_llms_url)
 """
+
 from __future__ import annotations
 
 from pathlib import Path
 
-from pydantic import Field, HttpUrl, field_validator
+from pydantic import Field, HttpUrl, ValidationInfo, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 # Project root = two levels up from this file (src/config.py → project root)
 PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent
 
+
 class Settings(BaseSettings):
     """Application settings loaded from environment variables / .env file."""
+
     model_config = SettingsConfigDict(
         env_file=PROJECT_ROOT / ".env",
         env_file_encoding="utf-8",
         case_sensitive=False,
-        extra="ignore"
+        extra="ignore",
     )
 
     # ---------- Source configuration ----------
@@ -62,7 +65,7 @@ class Settings(BaseSettings):
         description="Http timeout in seconds (politeness).",
     )
 
-    http_connect_timeout: float= Field(
+    http_connect_timeout: float = Field(
         default=10.0,
         gt=0.0,
         description="HTTP connection timeout in seconds.",
@@ -105,7 +108,7 @@ class Settings(BaseSettings):
 
     @field_validator("request_delay_max")
     @classmethod
-    def validate_delay_max(cls, v: float, info) -> float:
+    def validate_delay_range(cls, v: float, info: ValidationInfo) -> float:
         """Ensure max delay >= min delay."""
         min_delay = info.data.get("request_delay_min", 0.0)
         if v < min_delay:
@@ -127,6 +130,7 @@ class Settings(BaseSettings):
     def logs_path(self) -> Path:
         """Absolute path to logs directory."""
         return PROJECT_ROOT / self.logs_dir
+
 
 # Instantiated once at import time. Import this object from other modules.
 settings = Settings()
