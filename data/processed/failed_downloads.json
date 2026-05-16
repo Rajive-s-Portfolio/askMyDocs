@@ -1,0 +1,69 @@
+{
+  "count": 8,
+  "failures": [
+    {
+      "url": "https://docs.stripe.com/issuing/compliance-us/disclosure.md",
+      "title": "Issuing Disclosure Component",
+      "section": "Issuing",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:26:09.926896Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/period-summary.md",
+      "title": "Period summary",
+      "section": "Revenue Recognition",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:25:59.603959Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/compliance/disclosure.md",
+      "title": "Treasury Disclosure Component",
+      "section": "Treasury",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:24:26.988293Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/fifth-third-migration.md",
+      "title": "Customize your migration to Fifth Third Bank",
+      "section": "Treasury",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:24:36.643809Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/reports/administrative-facilitation-fee-report.md",
+      "title": "Administrative facilitation fee report",
+      "section": "Treasury",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:24:38.033836Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/remote-check-acceptance.md",
+      "title": "Remote check acceptance",
+      "section": "Treasury",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:24:53.016072Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/remote-check-acceptance-testing.md",
+      "title": "Test a remote check acceptance integration",
+      "section": "Treasury",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:24:55.508306Z",
+      "attempt_number": 1
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/remote-check-acceptance-review-guide.md",
+      "title": "Remote check acceptance review guidelines",
+      "section": "Treasury",
+      "error": "HTTP 404",
+      "attempted_at": "2026-05-16T16:24:56.698497Z",
+      "attempt_number": 1
+    }
+  ]
+}

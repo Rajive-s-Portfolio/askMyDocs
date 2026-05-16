@@ -1,0 +1,2748 @@
+{
+  "source_url": "https://docs.stripe.com/llms.txt",
+  "fetched_at": "2026-05-16T16:23:50.105979Z",
+  "entries": [
+    {
+      "url": "https://docs.stripe.com/testing.md",
+      "title": "Testing",
+      "section": "Docs",
+      "description": "Simulate payments to test your integration."
+    },
+    {
+      "url": "https://docs.stripe.com/api.md",
+      "title": "API Reference",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/payouts.md",
+      "title": "Receive payouts",
+      "section": "Docs",
+      "description": "Set up your bank account to receive payouts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect.md",
+      "title": "Platforms and marketplaces with Stripe Connect",
+      "section": "Docs",
+      "description": "Build a SaaS platform or marketplace with Connect."
+    },
+    {
+      "url": "https://docs.stripe.com/currencies.md",
+      "title": "Supported currencies",
+      "section": "Docs",
+      "description": "Learn which currencies Stripe supports for payments and bank payouts."
+    },
+    {
+      "url": "https://docs.stripe.com/upgrades.md",
+      "title": "API upgrades",
+      "section": "Docs",
+      "description": "Learn how to manage API versions and handle breaking changes in major releases."
+    },
+    {
+      "url": "https://docs.stripe.com/projects.md",
+      "title": "Stripe Projects CLI",
+      "section": "Docs",
+      "description": "Stripe Projects is a CLI for provisioning software stacks."
+    },
+    {
+      "url": "https://docs.stripe.com/sdks.md",
+      "title": "Stripe SDKs",
+      "section": "Docs",
+      "description": "Libraries and tools for interacting with your Stripe integration."
+    },
+    {
+      "url": "https://docs.stripe.com/webhooks.md",
+      "title": "Receive Stripe events in your webhook endpoint",
+      "section": "Docs",
+      "description": "Listen for events from Stripe on your webhook endpoint so your integration can automatically trigger reactions."
+    },
+    {
+      "url": "https://docs.stripe.com/declines.md",
+      "title": "Declines",
+      "section": "Docs",
+      "description": "Learn about payment declines and how to lower your decline rate."
+    },
+    {
+      "url": "https://docs.stripe.com/refunds.md",
+      "title": "Refund and cancel payments",
+      "section": "Docs",
+      "description": "Learn how to cancel or refund a payment."
+    },
+    {
+      "url": "https://docs.stripe.com/security.md",
+      "title": "Security at Stripe",
+      "section": "Docs",
+      "description": "Learn how Stripe handles security."
+    },
+    {
+      "url": "https://docs.stripe.com/checkout/quickstart.md",
+      "title": "Build a Stripe-hosted checkout page",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/payments/quickstart.md",
+      "title": "Build an advanced integration",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/billing/quickstart.md",
+      "title": "Build a pre-built subscription page with Stripe Checkout",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/webhooks/quickstart.md",
+      "title": "Set up and deploy a webhook",
+      "section": "Docs",
+      "description": "Learn how to set up and deploy a webhook to listen to events from Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/api/events/types.md",
+      "title": "Types of events",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/security/guide.md",
+      "title": "Integration security guide",
+      "section": "Docs",
+      "description": "Ensure PCI compliance and secure customer-server communications."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/analytics.md",
+      "title": "Payments analytics",
+      "section": "Docs",
+      "description": "Learn about the performance of your payments using key metrics and reports."
+    },
+    {
+      "url": "https://docs.stripe.com/event-destinations.md",
+      "title": "Integrate with events",
+      "section": "Docs",
+      "description": "Send events from Stripe to webhook endpoints and cloud services."
+    },
+    {
+      "url": "https://docs.stripe.com/webhooks/signature.md",
+      "title": "Resolve webhook signature verification errors",
+      "section": "Docs",
+      "description": "Learn how to fix a common error when listening to webhook events."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/account/teams.md",
+      "title": "Start a team",
+      "section": "Docs",
+      "description": "Learn how to invite and interact with team members."
+    },
+    {
+      "url": "https://docs.stripe.com/api/errors.md",
+      "title": "Errors",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/versioning.md",
+      "title": "Versioning",
+      "section": "Docs",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-methods.md",
+      "title": "Payment Methods API",
+      "section": "Payment Methods",
+      "description": "Learn about the API that allows you to accept a range of global payment methods."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/account/linked-external-accounts.md",
+      "title": "Linked external accounts",
+      "section": "Payment Methods",
+      "description": "Manage your linked external accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/bank-debits.md",
+      "title": "Bank Debits",
+      "section": "Payment Methods",
+      "description": "Learn how to accept bank debits with Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/cards/overview.md",
+      "title": "How cards work",
+      "section": "Payment Methods",
+      "description": "Learn how an online credit or debit card payment works."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/cartes-bancaires.md",
+      "title": "Cartes Bancaires (CB)",
+      "section": "Payment Methods",
+      "description": "Learn about Cartes Bancaires, a common payment method in France."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/eftpos-australia.md",
+      "title": "eftpos Australia",
+      "section": "Payment Methods",
+      "description": "Learn about eftpos Australia, a common payment method in Australia."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/stablecoin-payments.md",
+      "title": "Stablecoin payments",
+      "section": "Payment Methods",
+      "description": "Learn about accepting payments in stablecoins."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/buy-now-pay-later.md",
+      "title": "Buy now, pay later",
+      "section": "Payment Methods",
+      "description": "Learn about buy now, pay later methods with Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/afterpay-clearpay.md",
+      "title": "Afterpay and Clearpay payments",
+      "section": "Payment Methods",
+      "description": "Offer your customers flexible financing while getting paid upfront with Afterpay (also known as Clearpay in the UK)."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/affirm.md",
+      "title": "Affirm payments",
+      "section": "Payment Methods",
+      "description": "Offer your US and Canadian customers flexible financing while getting paid upfront with Affirm."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/klarna.md",
+      "title": "Klarna payments",
+      "section": "Payment Methods",
+      "description": "Allow customers to make flexible payments while getting paid upfront with Klarna."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/bank-redirects.md",
+      "title": "Bank redirects",
+      "section": "Payment Methods",
+      "description": "Learn about bank redirects with Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/bank-transfers.md",
+      "title": "Bank transfer payments",
+      "section": "Payment Methods",
+      "description": "Learn about bank transfers and managing payments with the customer balance."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/real-time.md",
+      "title": "Real-time payments",
+      "section": "Payment Methods",
+      "description": "Learn about real-time payments with Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/vouchers.md",
+      "title": "Vouchers",
+      "section": "Payment Methods",
+      "description": "Learn about voucher payment methods with Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/wallets.md",
+      "title": "Wallets",
+      "section": "Payment Methods",
+      "description": "Learn about wallet payments with Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/local-markets.md",
+      "title": "Regions with special payment method requirements",
+      "section": "Payment Methods",
+      "description": "Accept South Korean or Nigerian payment methods."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-methods/custom-payment-methods.md",
+      "title": "Custom payment methods",
+      "section": "Payment Methods",
+      "description": "Extend your integrations with additional payment methods processed outside of Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/orchestration.md",
+      "title": "Orchestration",
+      "section": "Payment Methods",
+      "description": "Create rules to route payments across your payment processors."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout.md",
+      "title": "Build a payments page",
+      "section": "Checkout",
+      "description": "Create a payments page with prebuilt UIs using the Checkout Sessions API."
+    },
+    {
+      "url": "https://docs.stripe.com/checkout/embedded/quickstart.md",
+      "title": "Embed a checkout page in your site",
+      "section": "Checkout",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/how-checkout-works.md",
+      "title": "How Checkout works",
+      "section": "Checkout",
+      "description": "Learn how to use Checkout to collect payments on your website."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/customization.md",
+      "title": "Customize Checkout",
+      "section": "Checkout",
+      "description": "Customize the appearance and behavior of Checkout."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/setup-intents.md",
+      "title": "The Setup Intents API",
+      "section": "Checkout",
+      "description": "Learn more about the Setup Intents API for saving payment methods."
+    },
+    {
+      "url": "https://docs.stripe.com/checkout/fulfillment.md",
+      "title": "Fulfill orders",
+      "section": "Checkout",
+      "description": "Learn how to fulfill payments received with the Checkout Sessions API."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/custom-success-page.md",
+      "title": "Customize redirect behavior",
+      "section": "Checkout",
+      "description": "Display a confirmation page with your customer's order information."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/discounts.md",
+      "title": "Add discounts",
+      "section": "Checkout",
+      "description": "Reduce the amount charged to a customer by discounting their subtotal with coupons and promotion codes."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/custom-domains.md",
+      "title": "Use your custom domain",
+      "section": "Checkout",
+      "description": "Learn how to bring your own custom domain to Stripe Checkout, Payment Links, and customer portal."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/limit-subscriptions.md",
+      "title": "Limit customers to one subscription",
+      "section": "Checkout",
+      "description": "Direct customers to manage their subscription when they already have one."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/cross-sells.md",
+      "title": "Cross-sells",
+      "section": "Checkout",
+      "description": "Enable customers to purchase complementary products at checkout by using cross-sells."
+    },
+    {
+      "url": "https://docs.stripe.com/products-prices/overview.md",
+      "title": "Overview",
+      "section": "Checkout",
+      "description": "Model your business on Stripe with products and prices."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/subscriptions.md",
+      "title": "Subscriptions",
+      "section": "Checkout",
+      "description": "Create subscriptions for your customers."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/during-payment/charge-shipping.md",
+      "title": "Charge for shipping",
+      "section": "Checkout",
+      "description": "Create different shipping rates for your customers."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/taxes.md",
+      "title": "Collect taxes",
+      "section": "Checkout",
+      "description": "Learn how to collect taxes with Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/payment-methods.md",
+      "title": "Manage payment methods",
+      "section": "Checkout",
+      "description": "Use dynamic payment methods or manually define the payment methods to allow per checkout session."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/custom-components.md",
+      "title": "Extend checkout with custom components",
+      "section": "Checkout",
+      "description": "Display custom text and collect additional information on Checkout Sessions."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/collect-addresses.md",
+      "title": "Collect physical addresses",
+      "section": "Checkout",
+      "description": "Learn how to collect billing and shipping addresses."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/customization/card-brands.md",
+      "title": "Customize card brands",
+      "section": "Checkout",
+      "description": "Customize the card brands that Checkout displays."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/save-during-payment.md",
+      "title": "Save payment details during payment",
+      "section": "Checkout",
+      "description": "Learn how to accept a payment and save your customer's payment details for future purchases."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/after-the-payment.md",
+      "title": "After the payment",
+      "section": "Checkout",
+      "description": "Customize the post-payment checkout process."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/billing-cycle.md",
+      "title": "Set the billing cycle date",
+      "section": "Checkout",
+      "description": "Set a subscription's billing cycle anchor to a fixed date."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/pay-what-you-want.md",
+      "title": "Let customers decide what to pay",
+      "section": "Checkout",
+      "description": "Accept tips and donations, or sell pay-what-you-want products and services."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/upsells.md",
+      "title": "Subscription upsells",
+      "section": "Checkout",
+      "description": "Enable customers to upgrade their subscription plan at checkout by using upsells."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/no-cost-orders.md",
+      "title": "No-cost orders",
+      "section": "Checkout",
+      "description": "Accept orders for no-cost line items or apply 100% off discounts for one-time payments."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/analyze-conversion-funnel.md",
+      "title": "Analyze your conversion funnel",
+      "section": "Checkout",
+      "description": "Analyze your Stripe Checkout conversion funnel with Google Analytics 4."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/promotions.md",
+      "title": "Add discounts, upsells, and optional items",
+      "section": "Checkout",
+      "description": "Boost sales with discounts and offers."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/localize-prices/manual-currency-prices.md",
+      "title": "Manual currency prices",
+      "section": "Checkout",
+      "description": "Present local currencies to customers with manual currency prices."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/phone-numbers.md",
+      "title": "Collect customer phone numbers",
+      "section": "Checkout",
+      "description": "Collect a phone number for shipping or invoicing when your customer makes a payment."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/custom-shipping-options.md",
+      "title": "Dynamically customize shipping options",
+      "section": "Checkout",
+      "description": "Update shipping options based on a customer's shipping address."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/client.md",
+      "title": "One-time payments with Checkout",
+      "section": "Checkout",
+      "description": "Learn how to accept one-time card payments with just a few lines of code."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/save-and-reuse.md",
+      "title": "Set up future payments",
+      "section": "Checkout",
+      "description": "Learn how to save payment details in a Checkout session and charge your customers later."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/adjustable-quantity.md",
+      "title": "Make line item quantities adjustable",
+      "section": "Checkout",
+      "description": "Enable your customers to adjust the quantity of items during checkout."
+    },
+    {
+      "url": "https://docs.stripe.com/checkout/elements-with-checkout-sessions-api/changelog.md",
+      "title": "Elements with Checkout Sessions API beta changelog",
+      "section": "Checkout",
+      "description": "Keep track of changes to the Elements with Checkout Sessions API beta integration."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/migrating-prices.md",
+      "title": "Checkout prices migration guide",
+      "section": "Checkout",
+      "description": "Learn how to update your integration to use prices with Stripe Checkout."
+    },
+    {
+      "url": "https://docs.stripe.com/api/checkout/sessions.md",
+      "title": "Checkout Sessions",
+      "section": "Checkout",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/checkout/sessions/object.md",
+      "title": "The Checkout Session object",
+      "section": "Checkout",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/checkout/sessions/create.md",
+      "title": "Create a Checkout Session",
+      "section": "Checkout",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/payments/accept-a-payment.md",
+      "title": "Accept a payment",
+      "section": "Payments",
+      "description": "Securely accept payments online."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-intents.md",
+      "title": "The Payment Intents API",
+      "section": "Payments",
+      "description": "Learn how to use the Payment Intents API for Stripe payments."
+    },
+    {
+      "url": "https://docs.stripe.com/payouts/multicurrency-settlement.md",
+      "title": "Multi-currency settlement",
+      "section": "Payments",
+      "description": "Accept, settle, and pay out funds in multiple currencies."
+    },
+    {
+      "url": "https://docs.stripe.com/declines/codes.md",
+      "title": "Stripe decline codes",
+      "section": "Payments",
+      "description": "Learn about Stripe decline codes and how to resolve them when a charge fails."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/place-a-hold-on-a-payment-method.md",
+      "title": "Place a hold on a payment method",
+      "section": "Payments",
+      "description": "Separate payment authorization and capture to create a charge now, but capture funds later."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/save-during-payment.md",
+      "title": "Save a customer's payment method when they use it for a payment",
+      "section": "Payments",
+      "description": "Learn how to save your customer's payment details for future purchases when they make a payment."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/save-and-reuse.md",
+      "title": "Save a customer's payment method without making a payment",
+      "section": "Payments",
+      "description": "Learn how to save a payment method and charge it later."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-intents/verifying-status.md",
+      "title": "Payment status updates",
+      "section": "Payments",
+      "description": "Monitor and verify payment status, so that you can respond to successful and failed payments."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-methods/integration-options.md",
+      "title": "Payment method integration options",
+      "section": "Payments",
+      "description": "Learn about the different ways to integrate payment methods."
+    },
+    {
+      "url": "https://docs.stripe.com/payment-links/buy-button.md",
+      "title": "Create an embeddable buy button",
+      "section": "Payments",
+      "description": "Use Payment Links to create an embeddable buy button for your website."
+    },
+    {
+      "url": "https://docs.stripe.com/payment-links/post-payment.md",
+      "title": "After a payment link payment",
+      "section": "Payments",
+      "description": "Learn what you can do after receiving a payment link payment."
+    },
+    {
+      "url": "https://docs.stripe.com/payment-links/share.md",
+      "title": "Share a payment link",
+      "section": "Payments",
+      "description": "Share payment links across social media, emails, or your website."
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment_intents.md",
+      "title": "Payment Intents",
+      "section": "Payments",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment_intents/object.md",
+      "title": "The PaymentIntent object",
+      "section": "Payments",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment_intents/create.md",
+      "title": "Create a PaymentIntent",
+      "section": "Payments",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment_methods.md",
+      "title": "Payment Methods",
+      "section": "Payments",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment_methods/object.md",
+      "title": "The PaymentMethod object",
+      "section": "Payments",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment_methods/create.md",
+      "title": "Create a PaymentMethod",
+      "section": "Payments",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/link-payment-integrations.md",
+      "title": "Link in different payment integrations",
+      "section": "Link",
+      "description": "Use Link with dynamic payment methods and other integrations."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/instant-bank-payments.md",
+      "title": "Instant Bank Payments",
+      "section": "Link",
+      "description": "Accept low cost bank payments with instant confirmation."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/checkout-link.md",
+      "title": "Link with Checkout",
+      "section": "Link",
+      "description": "Use Link with Stripe's prebuilt checkout page."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/payment-element-link.md",
+      "title": "Link in the Payment Element",
+      "section": "Link",
+      "description": "Link in the Payment Element lets your customers check out faster."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/card-element-link.md",
+      "title": "Link in the Card Element",
+      "section": "Link",
+      "description": "Enable checkout using Link with the Card Element."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/mobile-payment-element-link.md",
+      "title": "Link in the Mobile Payment Element",
+      "section": "Link",
+      "description": "Add Link to your native iOS, Android, and React Native apps."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/express-checkout-element-link.md",
+      "title": "Link in the Express Checkout Element",
+      "section": "Link",
+      "description": "Let customers check out faster with Link and the Express Checkout Element."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/invoicing.md",
+      "title": "Link with Invoicing",
+      "section": "Link",
+      "description": "Speed up invoice payments by using Link with the Hosted Invoice Page."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/link/link-authentication-element.md",
+      "title": "Explore the Link Authentication Element",
+      "section": "Link",
+      "description": "Create a single email input for both email collection and Link authentication."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/development-environment.md",
+      "title": "Set up your development environment",
+      "section": "Architecture and Dashboard",
+      "description": "Get familiar with the Stripe CLI and our server-side SDKs."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/account/add-funds.md",
+      "title": "Add funds to your Stripe balance",
+      "section": "Architecture and Dashboard",
+      "description": "Cover increased refunds and chargebacks by adding funds to your balance."
+    },
+    {
+      "url": "https://docs.stripe.com/dashboard/basics.md",
+      "title": "Web Dashboard",
+      "section": "Architecture and Dashboard",
+      "description": "Learn how to use the web version of the Stripe Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/dashboard/mobile.md",
+      "title": "Stripe Dashboard mobile app",
+      "section": "Architecture and Dashboard",
+      "description": "Learn how to use the mobile app version of the Stripe Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/samples.md",
+      "title": "Browse sample projects",
+      "section": "Architecture and Dashboard",
+      "description": "Explore the library of sample projects using Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/payments-api/tour.md",
+      "title": "Tour of the API",
+      "section": "Architecture and Dashboard",
+      "description": "See how Stripe API objects fit together and learn best practices for combining them."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/checklist/go-live.md",
+      "title": "Go-live checklist",
+      "section": "Architecture and Dashboard",
+      "description": "Use this checklist when taking your integration live."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/test-developer-integration.md",
+      "title": "Build and test new features",
+      "section": "Architecture and Dashboard",
+      "description": "Build and test new features using the Stripe developer tools."
+    },
+    {
+      "url": "https://docs.stripe.com/dashboard/search.md",
+      "title": "Perform searches in the Dashboard",
+      "section": "Architecture and Dashboard",
+      "description": "Use the Dashboard to search for payments, customers, and more."
+    },
+    {
+      "url": "https://docs.stripe.com/testing/wallets.md",
+      "title": "Test Apple and Google wallet rendering",
+      "section": "Architecture and Dashboard",
+      "description": "Compare your integration against working demo integrations to identify possible rendering issues."
+    },
+    {
+      "url": "https://docs.stripe.com/products-prices/pricing-models.md",
+      "title": "Recurring pricing models",
+      "section": "Billing",
+      "description": "Learn about the pricing models you can use with subscriptions."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/coupons.md",
+      "title": "Coupons and promotion codes",
+      "section": "Billing",
+      "description": "Add discounts to subscriptions and subscription items using coupons and promotion codes."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/cancel.md",
+      "title": "Cancel subscriptions",
+      "section": "Billing",
+      "description": "Learn how to cancel existing subscriptions."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/billing-cycle.md",
+      "title": "Set the subscription billing renewal date",
+      "section": "Billing",
+      "description": "Learn how to set the billing date for subscriptions."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/checkout/pricing-table.md",
+      "title": "Embeddable pricing table for subscriptions",
+      "section": "Billing",
+      "description": "Display a subscription pricing table on your website and take customers directly to Stripe Checkout."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/change-price.md",
+      "title": "Change the price of existing subscriptions",
+      "section": "Billing",
+      "description": "Learn how to upgrade and downgrade subscriptions by changing the price."
+    },
+    {
+      "url": "https://docs.stripe.com/no-code/subscriptions.md",
+      "title": "Create subscriptions",
+      "section": "Billing",
+      "description": "Set up recurring payments by offering subscriptions to your service."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/change.md",
+      "title": "Modify subscriptions",
+      "section": "Billing",
+      "description": "Change existing subscriptions to cancel, pause, apply prorated charges and credits, and more."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/customer/tax-ids.md",
+      "title": "Customer Tax IDs",
+      "section": "Billing",
+      "description": "Learn how to store, validate, and render customer tax ID numbers with Stripe Billing."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/usage-based/implementation-guide.md",
+      "title": "Set up a pay-as-you-go pricing model",
+      "section": "Billing",
+      "description": "Charge customers based on their usage of your product or service."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/entitlements.md",
+      "title": "Entitlements",
+      "section": "Billing",
+      "description": "Determine when you can grant or revoke product feature access to customers."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/payment-methods-setting.md",
+      "title": "Set payment methods per-subscription",
+      "section": "Billing",
+      "description": "Learn how to specify which payment methods are available for a subscription."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/customer.md",
+      "title": "Customers",
+      "section": "Billing",
+      "description": "Learn how to use the Customer object with Stripe Billing."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/use-cases.md",
+      "title": "Subscription use cases",
+      "section": "Billing",
+      "description": "Learn about some of the business use cases for subscriptions."
+    },
+    {
+      "url": "https://docs.stripe.com/saas.md",
+      "title": "Integrate a SaaS business on Stripe",
+      "section": "Billing",
+      "description": "Learn how to build a Software as a Service (SaaS) business with Billing and other Stripe products."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/usage-based/recording-usage.md",
+      "title": "Record usage for billing",
+      "section": "Billing",
+      "description": "Learn how to record customer usage data."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/design-an-integration.md",
+      "title": "Design a subscriptions integration",
+      "section": "Billing",
+      "description": "Learn about the configuration options for a subscriptions integration."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/pause-payment.md",
+      "title": "Pause payment collection",
+      "section": "Billing",
+      "description": "Learn how to pause payment collection on subscriptions."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/tax-rates.md",
+      "title": "Tax rates",
+      "section": "Billing",
+      "description": "Learn how to collect and report taxes with tax rate objects."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/migrate-subscriptions.md",
+      "title": "Migrate subscriptions to Stripe Billing",
+      "section": "Billing",
+      "description": "Learn about migrating subscriptions from other sources to Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/quantities.md",
+      "title": "Set product or subscription quantities",
+      "section": "Billing",
+      "description": "Subscribe a customer to multiple products, or to multiple quantities of a single product, all billed in a single invoice."
+    },
+    {
+      "url": "https://docs.stripe.com/get-started/data-migrations/overview.md",
+      "title": "Overview",
+      "section": "Billing",
+      "description": "Successfully migrate your customers and their payments data to Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/revenue-recovery.md",
+      "title": "Revenue recovery",
+      "section": "Billing",
+      "description": "Learn about automated recovery features that reduce and recover failed subscription payments."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/subscriptions/import-subscriptions-toolkit.md",
+      "title": "Migrate subscriptions to Stripe Billing using toolkit",
+      "section": "Billing",
+      "description": "Learn how to migrate your existing subscriptions to Stripe using the toolkit."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/billing-apis.md",
+      "title": "About the Billing APIs",
+      "section": "Billing",
+      "description": "Understand how the Billing API objects work together."
+    },
+    {
+      "url": "https://docs.stripe.com/api/subscriptions.md",
+      "title": "Subscriptions",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/subscriptions/object.md",
+      "title": "The Subscription object",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/subscriptions/create.md",
+      "title": "Create a subscription",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/customers.md",
+      "title": "Customers",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/customers/object.md",
+      "title": "The Customer object",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/customer_balance_transactions.md",
+      "title": "Customer Balance Transaction",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/customer_balance_transactions/object.md",
+      "title": "The Customer Balance Transaction object",
+      "section": "Billing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/elements/address-element.md",
+      "title": "Address Element",
+      "section": "Elements",
+      "description": "Use the Address Element to collect complete billing and shipping addresses."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/elements/link-authentication-element.md",
+      "title": "Link Authentication Element",
+      "section": "Elements",
+      "description": "Use the Link Authentication Element to integrate Link."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/mobile/payment-sheet.md",
+      "title": "Payment Sheet",
+      "section": "Elements",
+      "description": "A prebuilt UI that presents payment methods in a sheet."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/mobile/embedded.md",
+      "title": "Payment Element",
+      "section": "Elements",
+      "description": "Embed payment methods directly in your app."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-element/migration-ct.md",
+      "title": "Migrate to Confirmation Tokens",
+      "section": "Elements",
+      "description": "Finalize payments on the server by using a ConfirmationToken instead of a PaymentMethod."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/mobile/migrating-to-mobile-payment-element-from-basic-integration.md",
+      "title": "Migrate from the Basic Integration to the Payment Sheet",
+      "section": "Elements",
+      "description": "Upgrade your legacy mobile SDK integration before we remove it from the SDK."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/payment-element/control-billing-details-collection.md",
+      "title": "Control billing details collection",
+      "section": "Elements",
+      "description": "Customize the billing details you collect within the Payment Element."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/mobile/address-element.md",
+      "title": "Address Element",
+      "section": "Elements",
+      "description": "Use the Address Element to collect complete billing and shipping addresses for in-app integrations."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/advanced/collect-addresses.md",
+      "title": "Collect physical addresses and phone numbers",
+      "section": "Elements",
+      "description": "Learn how to collect addresses and phone numbers during one-time payment flows."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/mobile/collect-addresses.md",
+      "title": "Collect physical addresses and phone numbers",
+      "section": "Elements",
+      "description": "Learn how to collect customer addresses and phone numbers in your mobile app with the Address Element."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/forwarding-third-party-processors.md",
+      "title": "Use Payment Element across multiple processors",
+      "section": "Elements",
+      "description": "Learn how to collect card details with Payment Element and use them with a third-party processor."
+    },
+    {
+      "url": "https://docs.stripe.com/elements/appearance-api/mobile.md",
+      "title": "Customize appearance",
+      "section": "Elements",
+      "description": "Customize your mobile integration with the Appearance API."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/mobile/charge-shipping.md",
+      "title": "Charge for shipping",
+      "section": "Elements",
+      "description": "Create different shipping rates for your customers."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/how-connect-works.md",
+      "title": "How Connect works",
+      "section": "Connect",
+      "description": "Start here. Learn how Connect's core components fit together — onboarding, account management, payments, payouts, and platform tools — before making any API or configuration decisions."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/accounts-v2.md",
+      "title": "Connect and the Accounts v2 API",
+      "section": "Connect",
+      "description": "Learn about the Accounts v2 model for Connect and how to create and manage connected accounts using the current recommended configuration."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/saas-platforms-and-marketplaces.md",
+      "title": "Introduction to SaaS platforms and marketplaces with Connect",
+      "section": "Connect",
+      "description": "Compare Connect integration approaches for SaaS platforms and marketplaces and choose the model that matches how your business takes payments and moves money."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/interactive-platform-guide.md",
+      "title": "Interactive platform guide",
+      "section": "Connect",
+      "description": "Use an interactive guide to determine the right Connect account type and payment flow for your platform based on your requirements."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/saas.md",
+      "title": "Build a SaaS platform",
+      "section": "Connect",
+      "description": "Learn how to build a Connect integration for SaaS platforms, including recommended onboarding, payment flows, and platform fee setup."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/saas/quickstart.md",
+      "title": "SaaS platform quickstart",
+      "section": "Connect",
+      "description": "Follow a step-by-step guide to set up a SaaS Connect integration quickly from onboarding through taking payments in test mode."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/marketplace.md",
+      "title": "Build a marketplace",
+      "section": "Connect",
+      "description": "Learn how to build a Connect integration for a marketplace, including common payment flows and how funds move between buyers, sellers, and your platform."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/marketplace/quickstart.md",
+      "title": "Marketplace quickstart",
+      "section": "Connect",
+      "description": "Follow a step-by-step guide to set up a marketplace Connect integration quickly from onboarding through taking payments in test mode."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/onboarding.md",
+      "title": "Choose your onboarding configuration",
+      "section": "Connect",
+      "description": "Learn about the different options for onboarding your connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/onboarding/quickstart.md",
+      "title": "Build a Connect integration",
+      "section": "Connect",
+      "description": "Follow a step-by-step guide to onboard connected accounts and understand what information is required to get them enabled."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/hosted-onboarding.md",
+      "title": "Stripe-hosted onboarding",
+      "section": "Connect",
+      "description": "Onboard connected accounts by redirecting them to a Stripe-hosted onboarding flow."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/required-verification-information.md",
+      "title": "Required verification information",
+      "section": "Connect",
+      "description": "Identify current and future information requirements that connected accounts must provide based on their business, location, and requested capabilities."
+    },
+    {
+      "url": "https://docs.stripe.com/acceptable-verification-documents.md",
+      "title": "Acceptable verification documents by country",
+      "section": "Connect",
+      "description": "Learn which documents Stripe accepts for verification of identity, address, and legal entity."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/identity-verification.md",
+      "title": "Identity verification for connected accounts",
+      "section": "Connect",
+      "description": "Use identity verification to reduce risk on your platform when using Connect."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/account-capabilities.md",
+      "title": "Account capabilities and configurations",
+      "section": "Connect",
+      "description": "Learn how Connect capabilities work and how requested capabilities affect verification requirements and what a connected account can do."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/accounts.md",
+      "title": "Connect account types",
+      "section": "Connect",
+      "description": "(Legacy) Learn about older v1 connected account configurations. For new integrations, use Accounts v2."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/standard-accounts.md",
+      "title": "Using Connect with Standard connected accounts",
+      "section": "Connect",
+      "description": "(Legacy) Standard connected accounts are a v1 account type. For new integrations, configure accounts using Accounts v2 responsibilities and dashboard settings."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/custom-accounts.md",
+      "title": "Using Connect with Custom connected accounts",
+      "section": "Connect",
+      "description": "(Legacy) Custom connected accounts are a v1 account type. For new integrations, configure accounts using Accounts v2 responsibilities and dashboard settings."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/express-dashboard.md",
+      "title": "Express Dashboard",
+      "section": "Connect",
+      "description": "(Legacy) The Express Dashboard is a v1 feature. For new integrations, configure dashboard access using Accounts v2."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/charges.md",
+      "title": "Understand how charges work in a Connect integration",
+      "section": "Connect",
+      "description": "Learn about the types of charges used in Connect integrations and how funds move between the platform and connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/authentication.md",
+      "title": "Making API calls for connected accounts",
+      "section": "Connect",
+      "description": "Learn how to add the right information to your API calls so you can make calls for your connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/payouts-connected-accounts.md",
+      "title": "Payouts to connected accounts",
+      "section": "Connect",
+      "description": "Manage payouts and external accounts for your platform's connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/manual-payouts.md",
+      "title": "Using manual payouts",
+      "section": "Connect",
+      "description": "Send manual payouts to your connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/api/balance.md",
+      "title": "Balance",
+      "section": "Connect",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/balance/balance_object.md",
+      "title": "The Balance object",
+      "section": "Connect",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/connect/dashboard.md",
+      "title": "Manage connected accounts with the Dashboard",
+      "section": "Connect",
+      "description": "Learn about using the Stripe Dashboard to find and manage connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/platform-pricing-tools.md",
+      "title": "Platform pricing tool",
+      "section": "Connect",
+      "description": "Set platform processing fees for your connected accounts from your Stripe Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/webhooks.md",
+      "title": "Connect webhooks",
+      "section": "Connect",
+      "description": "Learn how to use webhooks with Connect to be notified of Stripe activity."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/supported-embedded-components/payment-details.md",
+      "title": "Payment details",
+      "section": "Connect",
+      "description": "Show details of a given payment and allow users to manage disputes and perform refunds."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/tax-reporting.md",
+      "title": "US tax reporting for Connect platforms",
+      "section": "Connect",
+      "description": "Learn how to report the annual payments for your US-based connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/get-started-tax-reporting.md",
+      "title": "Get started with tax reporting",
+      "section": "Connect",
+      "description": "Use the Stripe 1099 tax reporting product to create, modify, file, and deliver tax forms for your connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/modify-tax-forms.md",
+      "title": "Update and create 1099 tax forms",
+      "section": "Connect",
+      "description": "Update and create 1099 tax forms for connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/1099-K.md",
+      "title": "1099-K form state requirements",
+      "section": "Connect",
+      "description": "View the state requirements for 1099-K forms."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/1099-NEC.md",
+      "title": "1099-NEC form state requirements",
+      "section": "Connect",
+      "description": "View the state requirements for 1099-NEC forms."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/how-issuing-works.md",
+      "title": "How Issuing works",
+      "section": "Issuing",
+      "description": "Learn how to start building a card program with Stripe Issuing."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/categories.md",
+      "title": "Issuing merchant categories",
+      "section": "Issuing",
+      "description": "Learn about the available categories that businesses are grouped in."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/3d-secure.md",
+      "title": "Cardholder authentication using 3D Secure",
+      "section": "Issuing",
+      "description": "Learn about 3D Secure, an additional layer of authentication used by businesses to combat fraud."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/physical.md",
+      "title": "Physical cards",
+      "section": "Issuing",
+      "description": "Issue physical cards at Stripe."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/digital-wallets.md",
+      "title": "Use digital wallets with Issuing",
+      "section": "Issuing",
+      "description": "Learn how to use Issuing to add cards to digital wallets."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/elements.md",
+      "title": "Using Issuing Elements",
+      "section": "Issuing",
+      "description": "Learn how to display card details in your web application in a PCI-compliant way."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/compliance-us.md",
+      "title": "Issuing and Treasury product marketing, design, and compliance guidelines",
+      "section": "Issuing",
+      "description": "Learn how to launch and maintain compliant Issuing and Treasury programs."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/compliance-us/disclosure.md",
+      "title": "Issuing Disclosure Component",
+      "section": "Issuing",
+      "description": "Learn how to embed an Issuing disclosure component directly onto your website."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/virtual.md",
+      "title": "Virtual cards with Issuing",
+      "section": "Issuing",
+      "description": "Learn about virtual cards created with Issuing."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/choose-cards.md",
+      "title": "Choose which type of card to issue",
+      "section": "Issuing",
+      "description": "Decide on physical or virtual cards for your cardholders."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/global.md",
+      "title": "Use Stripe Issuing in different countries",
+      "section": "Issuing",
+      "description": "Learn how different integration options vary by country."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/sample-app.md",
+      "title": "Issuing and Treasury for platforms sample app",
+      "section": "Issuing",
+      "description": "Learn how to onboard customers, issue cards, and make outbound payments."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/integration-guides/b2b-payments.md",
+      "title": "B2B payments integration guide",
+      "section": "Issuing",
+      "description": "Build a B2B payments integration with Issuing."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/testing.md",
+      "title": "Test your Issuing integration",
+      "section": "Issuing",
+      "description": "Learn how to test your integration and simulate purchases."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/examples/sample-app.md",
+      "title": "Issuing and Treasury for platforms sample app",
+      "section": "Issuing",
+      "description": "Use the Stripe Next.js sample app to start your own Issuing and Treasury for platforms integration."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/manage-fraud.md",
+      "title": "Manage fraud with Stripe Issuing controls and tools",
+      "section": "Issuing",
+      "description": "Understand how transaction fraud can impact your Issuing program and the steps you can take to combat it."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/adding-funds-to-your-card-program.md",
+      "title": "Add funds to your card program",
+      "section": "Issuing",
+      "description": "Learn about your options to fund card spend."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/marketing-guidance-europe-uk.md",
+      "title": "Stripe Issuing marketing guidelines",
+      "section": "Issuing",
+      "description": "Learn about marketing guidelines for Issuing programs in the United Kingdom and Europe."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/physical/order-custom-bundle.md",
+      "title": "Order a custom bundle",
+      "section": "Issuing",
+      "description": "Order your custom physical bundle."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/purchases/atm-usage.md",
+      "title": "Use cards at automated teller machines (ATMs)",
+      "section": "Issuing",
+      "description": "Learn how you can use your Stripe Issuing cards at ATMs."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/physical/create-design.md",
+      "title": "Create a design",
+      "section": "Issuing",
+      "description": "Create and name your bundle design."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/onboarding-overview.md",
+      "title": "Onboarding overview",
+      "section": "Issuing",
+      "description": "Take your integration live."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/replacements.md",
+      "title": "Replacement cards",
+      "section": "Issuing",
+      "description": "Learn how to replace cards that are expired, damaged, lost, or stolen."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/choose-bundle.md",
+      "title": "Choose your physical bundle",
+      "section": "Issuing",
+      "description": "Set up a standard or custom physical bundle."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/connect/tos_acceptance.md",
+      "title": "Update the Issuing terms of service acceptance",
+      "section": "Issuing",
+      "description": "Learn how to present accurate business information for your connected accounts and accept the Issuing terms of service."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/cards/physical/card-bundle-selections.md",
+      "title": "Customize card bundle",
+      "section": "Issuing",
+      "description": "Make your card bundle selections."
+    },
+    {
+      "url": "https://docs.stripe.com/issuing/issuing-watchlist.md",
+      "title": "Issuing watchlist",
+      "section": "Issuing",
+      "description": "Learn about the Issuing watchlist process and best practices."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/how-stripe-capital-works.md",
+      "title": "How Stripe Capital works",
+      "section": "Capital",
+      "description": "Learn how Stripe Capital provides financing for eligible businesses."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/getting-started.md",
+      "title": "Set up Capital",
+      "section": "Capital",
+      "description": "Determine which integration option to use when you set up Stripe Capital."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/how-capital-for-platforms-works.md",
+      "title": "How Stripe Capital for platforms works",
+      "section": "Capital",
+      "description": "Learn the basics about Stripe Capital for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/servicing.md",
+      "title": "Managing customer support",
+      "section": "Capital",
+      "description": "Support your Capital customers using Stripe-approved messaging."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/supported-embedded-components/capital-financing.md",
+      "title": "Capital financing component",
+      "section": "Capital",
+      "description": "Allow a connected account to view and manage their active Capital financing."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/api-integration.md",
+      "title": "Build a custom Capital program",
+      "section": "Capital",
+      "description": "Integrate with our API to build a custom Capital program."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/supported-embedded-components/capital-financing-application.md",
+      "title": "Capital application component",
+      "section": "Capital",
+      "description": "Show an end-to-end application flow for Capital financing."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/regulatory-compliance.md",
+      "title": "Regulatory compliance guidelines",
+      "section": "Capital",
+      "description": "Learn about the requirements and guidelines for regulatory compliance."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/marketing.md",
+      "title": "Marketing your Capital program",
+      "section": "Capital",
+      "description": "Build marketing assets for Capital."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/supported-embedded-components/capital-financing-promotion.md",
+      "title": "Capital promotion component",
+      "section": "Capital",
+      "description": "Show promotional content about a connected account's Capital financing offer and launch a Capital application."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/reporting.md",
+      "title": "Capital metrics",
+      "section": "Capital",
+      "description": "Access financing offer data in the Stripe Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/refills.md",
+      "title": "Refills",
+      "section": "Capital",
+      "description": "Learn how to enable refills for your Capital program."
+    },
+    {
+      "url": "https://docs.stripe.com/capital/replacements.md",
+      "title": "Replacements",
+      "section": "Capital",
+      "description": "Learn how to handle financing offer replacements."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/accept-stablecoin-payments.md",
+      "title": "Accept stablecoin payments",
+      "section": "Crypto",
+      "description": "Start accepting stablecoins by enabling the Crypto payment method."
+    },
+    {
+      "url": "https://docs.stripe.com/crypto/onramp/stripe-hosted.md",
+      "title": "Use the Stripe-hosted onramp",
+      "section": "Crypto",
+      "description": "Generate a redirect URL and mint a session for the standalone onramp."
+    },
+    {
+      "url": "https://docs.stripe.com/crypto/onramp/embedded.md",
+      "title": "Set up an Embedded onramp integration",
+      "section": "Crypto",
+      "description": "Use this guide to fully customize the embeddable onramp."
+    },
+    {
+      "url": "https://docs.stripe.com/crypto/onramp/embedded-components.md",
+      "title": "Embedded Components onramp",
+      "section": "Crypto",
+      "description": "Learn about the Embedded Components onramp."
+    },
+    {
+      "url": "https://docs.stripe.com/climate/commitments.md",
+      "title": "Climate Commitments",
+      "section": "Climate",
+      "description": "Direct a fraction of your revenue to help advance carbon removal."
+    },
+    {
+      "url": "https://docs.stripe.com/climate/orders.md",
+      "title": "Climate Orders overview",
+      "section": "Climate",
+      "description": "Pre-order carbon removal tons from Frontier's offtake portfolio"
+    },
+    {
+      "url": "https://docs.stripe.com/climate/orders/order-carbon-removal.md",
+      "title": "Order carbon removal",
+      "section": "Climate",
+      "description": "Pre-order carbon removal tons from Frontier's offtake portfolio."
+    },
+    {
+      "url": "https://docs.stripe.com/climate/orders/carbon-removal-inventory.md",
+      "title": "Carbon removal inventory",
+      "section": "Climate",
+      "description": "Learn about available carbon removal inventory."
+    },
+    {
+      "url": "https://docs.stripe.com/climate/orders/webhooks.md",
+      "title": "Webhooks for Climate Orders API",
+      "section": "Climate",
+      "description": "Learn about webhook events for products and orders."
+    },
+    {
+      "url": "https://docs.stripe.com/climate/orders/quickstart.md",
+      "title": "Accept carbon removal payments",
+      "section": "Climate",
+      "description": "Enable your customers to buy carbon removal using the Climate API with your payments integration."
+    },
+    {
+      "url": "https://docs.stripe.com/climate/orders/how-it-works.md",
+      "title": "How Climate Orders work",
+      "section": "Climate",
+      "description": "Learn how to create, monitor, and manage your carbon removal orders."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/set-up.md",
+      "title": "Set up Stripe Tax",
+      "section": "Tax",
+      "description": "Enable Stripe Tax to automatically calculate and collect tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/tax-codes.md",
+      "title": "Product tax codes",
+      "section": "Tax",
+      "description": "Stripe Tax uses product tax codes to determine a product's tax rate."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/how-tax-works.md",
+      "title": "How Stripe Tax works",
+      "section": "Tax",
+      "description": "Learn how Stripe helps you automate tax compliance."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/standalone-tax-api.md",
+      "title": "Standalone Tax API",
+      "section": "Tax",
+      "description": "Use the Tax Calculations and Transactions APIs directly for shipping, tax-inclusive pricing, and more."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/products-prices-tax-codes-tax-behavior.md",
+      "title": "Specify product tax codes and tax behavior",
+      "section": "Tax",
+      "description": "Add tax codes and tax behavior to your products and prices to automatically calculate tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/zero-tax.md",
+      "title": "Zero tax amounts and reverse charges",
+      "section": "Tax",
+      "description": "Learn about cases when Stripe Tax calculates zero tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/supported-countries.md",
+      "title": "Countries supported by Stripe Tax",
+      "section": "Tax",
+      "description": "Learn where you can use Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/checkout.md",
+      "title": "Collect tax with Checkout",
+      "section": "Tax",
+      "description": "Learn how to automatically calculate taxes using Stripe Checkout."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/calculating.md",
+      "title": "Calculate tax",
+      "section": "Tax",
+      "description": "Learn how to calculate tax with Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/invoicing.md",
+      "title": "Automatically collect tax on invoices",
+      "section": "Tax",
+      "description": "Learn how to automatically calculate tax on your invoices."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/connect.md",
+      "title": "Use Stripe Tax with Connect",
+      "section": "Tax",
+      "description": "Understand how Stripe Tax can help your platform and your connected accounts comply with tax obligations."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/testing.md",
+      "title": "Testing Stripe Tax",
+      "section": "Tax",
+      "description": "Learn how to test your Stripe Tax integration."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/subscriptions.md",
+      "title": "Collect taxes for recurring payments",
+      "section": "Tax",
+      "description": "Learn how to collect and report taxes for recurring payments."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/tax-customizations.md",
+      "title": "Tax customizations",
+      "section": "Tax",
+      "description": "Learn how to customize tax behavior using Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/tax-for-platforms.md",
+      "title": "Tax for software platforms",
+      "section": "Tax",
+      "description": "Learn how to enable Stripe Tax for your connected accounts, and collect tax when the connected account is liable for paying the tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/checkout/tax-ids.md",
+      "title": "Collect customer tax IDs",
+      "section": "Tax",
+      "description": "Learn how to collect VAT and other customer tax IDs during checkout."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/payment-links.md",
+      "title": "Automatically collect tax on Payment Links",
+      "section": "Tax",
+      "description": "Learn how to calculate and collect tax on a payment page without writing any code."
+    },
+    {
+      "url": "https://docs.stripe.com/billing/taxes/collect-taxes.md",
+      "title": "Collect taxes for recurring payments",
+      "section": "Tax",
+      "description": "Learn how to collect and report taxes for recurring payments."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/invoicing/tax-ids.md",
+      "title": "Account and customer tax IDs with Invoicing",
+      "section": "Tax",
+      "description": "Learn about storing, validating, and rendering tax ID numbers for Invoicing."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/subscriptions/update.md",
+      "title": "Update existing subscriptions",
+      "section": "Tax",
+      "description": "Learn how to update existing subscriptions to Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/tax-for-marketplaces.md",
+      "title": "Tax for marketplaces",
+      "section": "Tax",
+      "description": "Learn about tax requirements for platforms and marketplaces, and how to enable Stripe Tax to collect tax on transactions when the Connect platform is liable."
+    },
+    {
+      "url": "https://docs.stripe.com/tax.md",
+      "title": "Stripe Tax",
+      "section": "Tax",
+      "description": "Automate sales tax, VAT, and GST compliance on all your transactions."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/settings-api.md",
+      "title": "Use the Settings API to configure Stripe Tax",
+      "section": "Tax",
+      "description": "Learn how to configure tax settings, and check whether an account is ready to perform tax calculations."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/supported-embedded-components/tax-settings.md",
+      "title": "Tax settings",
+      "section": "Tax",
+      "description": "Learn how to allow connected accounts to set up Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/supported-countries/asia-pacific.md",
+      "title": "Tax in Asia Pacific",
+      "section": "Tax",
+      "description": "Use Stripe Tax to calculate, collect, and report tax in Asia Pacific."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/supported-embedded-components/tax-registrations.md",
+      "title": "Tax registrations",
+      "section": "Tax",
+      "description": "Learn how to allow connected accounts to manage their tax registrations for Stripe Tax."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/woocommerce/configuration.md",
+      "title": "Install and configure the Stripe Tax Extension",
+      "section": "Tax",
+      "description": "Use the Stripe Tax Extension for WooCommerce to automatically calculate sales tax, VAT, and GST."
+    },
+    {
+      "url": "https://docs.stripe.com/tax/registrations-api.md",
+      "title": "Use the Registrations API to manage tax registrations",
+      "section": "Tax",
+      "description": "Learn how to add, schedule, and check active tax registrations."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/woocommerce.md",
+      "title": "Stripe Tax Extension for WooCommerce",
+      "section": "Tax",
+      "description": "Learn about the Stripe Tax Extension for WooCommerce."
+    },
+    {
+      "url": "https://docs.stripe.com/api/tax_ids/object.md",
+      "title": "The Tax ID object",
+      "section": "Tax",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/taxes.md",
+      "title": "Taxes",
+      "section": "Invoicing",
+      "description": "Learn about Stripe Tax and how to use it with invoices."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/customize.md",
+      "title": "Customize invoices",
+      "section": "Invoicing",
+      "description": "Learn how to customize the content and branding of your invoices."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/send-email.md",
+      "title": "Send customer emails",
+      "section": "Invoicing",
+      "description": "Configure and send invoicing emails to your customers."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/integration/automatic-advancement-collection.md",
+      "title": "Automatic invoice advancement",
+      "section": "Invoicing",
+      "description": "Learn how Stripe can automatically advance invoice states and help collect payment."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/dashboard/credit-notes.md",
+      "title": "Issue credit notes",
+      "section": "Invoicing",
+      "description": "Use the Dashboard to adjust or refund finalized invoices with credit notes."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/integration.md",
+      "title": "Integrate with the Invoicing API",
+      "section": "Invoicing",
+      "description": "Learn how to create and send an invoice with code."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/no-code-guide.md",
+      "title": "No-code Invoicing guide",
+      "section": "Invoicing",
+      "description": "Get started with Stripe Invoicing—no code required."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/automatic-charging.md",
+      "title": "Automatic charging",
+      "section": "Invoicing",
+      "description": "Have Stripe automatically charge a customer's stored payment method."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/dashboard/manage-invoices.md",
+      "title": "Manage invoices",
+      "section": "Invoicing",
+      "description": "Learn how to manage your invoices in the Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/integration/quickstart.md",
+      "title": "Create and send an invoice",
+      "section": "Invoicing",
+      "description": "Build an example Invoicing integration."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/invoice-rendering-template.md",
+      "title": "Invoice rendering templates",
+      "section": "Invoicing",
+      "description": "Use invoice rendering templates to personalize your invoice appearance for different customers"
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/integration/workflow-transitions.md",
+      "title": "Status transitions and finalization",
+      "section": "Invoicing",
+      "description": "Learn about invoice status transitions and finalization."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/ach-direct-debit.md",
+      "title": "Invoicing and ACH Direct Debit",
+      "section": "Invoicing",
+      "description": "Configure, create, and process invoices using ACH Direct Debit."
+    },
+    {
+      "url": "https://docs.stripe.com/no-code/invoices.md",
+      "title": "Use invoices",
+      "section": "Invoicing",
+      "description": "Send an invoice your customers can pay online."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/netsuite/overview.md",
+      "title": "Stripe Connector for NetSuite",
+      "section": "Invoicing",
+      "description": "Use the app to reconcile your Stripe activity into NetSuite."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/customer/tax-ids.md",
+      "title": "Customer tax IDs",
+      "section": "Invoicing",
+      "description": "Store, validate, and render customer tax ID numbers with Stripe Invoicing."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/global-invoices.md",
+      "title": "Best practices for global invoices",
+      "section": "Invoicing",
+      "description": "Learn the best practices for setting up invoices in non-US regions."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/customer.md",
+      "title": "Customers",
+      "section": "Invoicing",
+      "description": "Learn how to use the Customer object with Stripe Invoicing."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/multi-currency-customers.md",
+      "title": "Multi-currency customers",
+      "section": "Invoicing",
+      "description": "Change the billable currency for any customer to accept multiple currencies."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/products-prices.md",
+      "title": "Products and prices",
+      "section": "Invoicing",
+      "description": "Use the Invoicing API to manage products and prices."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/integration/testing.md",
+      "title": "Test Stripe Invoicing",
+      "section": "Invoicing",
+      "description": "Learn how to test your Invoicing integration."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/hosted-invoice-page/scheduled-payments.md",
+      "title": "Scheduled payments",
+      "section": "Invoicing",
+      "description": "Let your customers schedule their payments through the Hosted Invoice Page."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/scheduled-finalization.md",
+      "title": "Schedule invoice finalization to send or charge an invoice in the future",
+      "section": "Invoicing",
+      "description": "Learn how to schedule an invoice and automatically send or charge for it on a  future date."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/preview.md",
+      "title": "Preview an invoice",
+      "section": "Invoicing",
+      "description": "Learn how to create a preview of an invoice."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/netsuite/error-resolution.md",
+      "title": "Troubleshoot the connector",
+      "section": "Invoicing",
+      "description": "Learn how to troubleshoot errors with the Stripe Connector for NetSuite."
+    },
+    {
+      "url": "https://docs.stripe.com/no-code/quotes.md",
+      "title": "Send quotes",
+      "section": "Invoicing",
+      "description": "Send a quote and convert it to a payment or subscription."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/taxes/account-tax-ids.md",
+      "title": "Account tax IDs",
+      "section": "Invoicing",
+      "description": "Store and render your tax IDs with Stripe Invoicing."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/netsuite/invoice-automation.md",
+      "title": "Stripe Billing and Invoicing automation",
+      "section": "Invoicing",
+      "description": "Use the connector to sync your Stripe invoices into NetSuite."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/bulk-update-line-item.md",
+      "title": "Manage bulk invoice line items",
+      "section": "Invoicing",
+      "description": "Add, update and remove multiple invoice line items with the Invoices API."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/taxes/tax-rates.md",
+      "title": "Tax rates and IDs",
+      "section": "Invoicing",
+      "description": "Assign tax rates to draft invoices for tax calculation."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/netsuite/deposit-automation.md",
+      "title": "Deposit automation",
+      "section": "Invoicing",
+      "description": "Use the connector to automate the bank reconciliation process."
+    },
+    {
+      "url": "https://docs.stripe.com/invoicing/integration/programmatic-credit-notes.md",
+      "title": "Generate credit notes programmatically",
+      "section": "Invoicing",
+      "description": "Use the Invoicing API to adjust or refund finalized invoices with credit notes."
+    },
+    {
+      "url": "https://docs.stripe.com/use-stripe-apps/netsuite/custom-payment-application.md",
+      "title": "Custom payment application",
+      "section": "Invoicing",
+      "description": "Learn how to customize the way payments are recorded and applied using the Stripe Connector for NetSuite."
+    },
+    {
+      "url": "https://docs.stripe.com/api/invoices.md",
+      "title": "Invoices",
+      "section": "Invoicing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/invoices/object.md",
+      "title": "The Invoice object",
+      "section": "Invoicing",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/identity/verify-identity-documents.md",
+      "title": "Verify your users’ identity documents",
+      "section": "Identity",
+      "description": "Create sessions and collect identity documents."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/verification-flows.md",
+      "title": "Verification flows",
+      "section": "Identity",
+      "description": "Apply a reusable configuration across your integration."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/verification-checks.md",
+      "title": "Verification checks",
+      "section": "Identity",
+      "description": "Learn about the different verification checks supported by Stripe Identity."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/review-tools.md",
+      "title": "Review tools",
+      "section": "Identity",
+      "description": "Learn how to use manual reviews to supplement programmatic systems with human expertise."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/use-cases.md",
+      "title": "Supported use cases and locations for Stripe Identity",
+      "section": "Identity",
+      "description": "Learn about the verification use cases and business locations supported by Stripe Identity."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/access-verification-results.md",
+      "title": "Access verification results",
+      "section": "Identity",
+      "description": "Learn how to access sensitive verification results."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/explaining-identity.md",
+      "title": "Explain Identity to your customers",
+      "section": "Identity",
+      "description": "Answer customer questions about ID verification and Stripe Identity."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/verification-sessions.md",
+      "title": "The Verification Sessions API",
+      "section": "Identity",
+      "description": "Learn more about the Verification Sessions API that powers Stripe Identity."
+    },
+    {
+      "url": "https://docs.stripe.com/identity/before-going-live.md",
+      "title": "Before going live",
+      "section": "Identity",
+      "description": "Best practices to build a production-ready Stripe Identity integration."
+    },
+    {
+      "url": "https://docs.stripe.com/samples/identity/redirect.md",
+      "title": "Identity verification (redirect)",
+      "section": "Identity",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/signup.md",
+      "title": "How to incorporate your company",
+      "section": "Atlas",
+      "description": "Learn what you need to get started with Atlas."
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/payments-business-bank.md",
+      "title": "Business bank accounts",
+      "section": "Atlas",
+      "description": "Apply to open a business bank account with our partners."
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/business-taxes.md",
+      "title": "Business taxes",
+      "section": "Atlas",
+      "description": "Business tax basics for startup founders."
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/company-types.md",
+      "title": "Company types",
+      "section": "Atlas",
+      "description": "Form a C corporation or an LLC using Stripe Atlas."
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/83b-election.md",
+      "title": "Section 83(b) elections",
+      "section": "Atlas",
+      "description": "Learn about common considerations for Section 83(b) elections."
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/incorporation-documents.md",
+      "title": "Incorporation documents",
+      "section": "Atlas",
+      "description": "Learn about the documents Atlas uses to incorporate your company."
+    },
+    {
+      "url": "https://docs.stripe.com/atlas/83b-elections-non-us-founders.md",
+      "title": "File Section 83(b) elections as a non-US founder",
+      "section": "Atlas",
+      "description": "Learn about filing an 83(b) election as a non-US founder."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/ach-direct-debit-payments.md",
+      "title": "Collect a bank account to use ACH Direct Debit payments with account data",
+      "section": "Financial Connections",
+      "description": "Use account data such as balances with your payments integration."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/use-cases.md",
+      "title": "Financial Connections use cases",
+      "section": "Financial Connections",
+      "description": "View options for integrating Financial Connections and common use cases."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/fundamentals.md",
+      "title": "Financial Connections fundamentals",
+      "section": "Financial Connections",
+      "description": "Learn how Financial Connections works."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/supported-institutions.md",
+      "title": "Supported institutions of Financial Connections",
+      "section": "Financial Connections",
+      "description": "View the details of supported financial institutions."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/connect-payouts.md",
+      "title": "Collect a bank account to enhance Connect payouts",
+      "section": "Financial Connections",
+      "description": "Collect your connected account's bank account and use account data to enhance payouts."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/testing.md",
+      "title": "Test Financial Connections",
+      "section": "Financial Connections",
+      "description": "Learn how to test your integration with simulated Financial Connections accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/financial-connections/disconnections.md",
+      "title": "Disconnect a Financial Connections account",
+      "section": "Financial Connections",
+      "description": "Use the Disconnect API to unlink customer bank accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/methodology.md",
+      "title": "How Revenue Recognition works",
+      "section": "Revenue Recognition",
+      "description": "Understand how Stripe Revenue Recognition calculates, defers, and reports your revenue."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/monthly-summary.md",
+      "title": "Monthly summary",
+      "section": "Revenue Recognition",
+      "description": "Learn about the monthly summary report."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/period-summary.md",
+      "title": "Period summary",
+      "section": "Revenue Recognition",
+      "description": "Learn about the period summary report."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports.md",
+      "title": "Revenue Recognition reports",
+      "section": "Revenue Recognition",
+      "description": "Generate and export revenue reports using Stripe Revenue Recognition."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/get-started.md",
+      "title": "Recognize revenue with Stripe",
+      "section": "Revenue Recognition",
+      "description": "Learn how to use Stripe for your revenue recognition."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/methodology/subscriptions-and-invoicing.md",
+      "title": "Revenue Recognition with subscriptions and invoicing",
+      "section": "Revenue Recognition",
+      "description": "Learn how revenue recognition works with subscriptions and invoices."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/waterfall.md",
+      "title": "Revenue waterfall",
+      "section": "Revenue Recognition",
+      "description": "View and analyze monthly revenue with the waterfall report."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/examples.md",
+      "title": "Revenue Recognition examples",
+      "section": "Revenue Recognition",
+      "description": "Learn about revenue recognition using some common examples."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/income-statement.md",
+      "title": "Income statement",
+      "section": "Revenue Recognition",
+      "description": "Analyze revenue, expenses, and net income with the income statement report."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/rules.md",
+      "title": "Revenue Recognition rules",
+      "section": "Revenue Recognition",
+      "description": "Customize rules to handle revenue treatments to your business."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/chart-of-accounts.md",
+      "title": "Map to your chart of accounts",
+      "section": "Revenue Recognition",
+      "description": "Map transactions from the Stripe default accounts to the chart of accounts in your general ledger."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/audit-numbers.md",
+      "title": "Audit your numbers",
+      "section": "Revenue Recognition",
+      "description": "Use the Stripe Dashboard to examine the details of your revenue numbers."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/api.md",
+      "title": "Revenue Recognition API",
+      "section": "Revenue Recognition",
+      "description": "Access Stripe Revenue Recognition reports programmatically to automate your accrual accounting."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/revenue-settings/accounting-period-control.md",
+      "title": "Revenue Recognition accounting period control",
+      "section": "Revenue Recognition",
+      "description": "Learn how to configure accounting periods for Stripe Revenue Recognition."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/data-import/apple-app-store.md",
+      "title": "Stripe Connector for the Apple App Store",
+      "section": "Revenue Recognition",
+      "description": "Manage your revenue recognition in Stripe by importing data from the Apple App Store."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/connect.md",
+      "title": "Revenue Recognition for Connect platforms",
+      "section": "Revenue Recognition",
+      "description": "Learn how revenue recognition works with Connect platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/methodology/multi-currency.md",
+      "title": "Revenue Recognition with multiple currencies",
+      "section": "Revenue Recognition",
+      "description": "Understand the roles of presentment and settlement currencies in Stripe Revenue Recognition."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/trial-balance.md",
+      "title": "Trial balance",
+      "section": "Revenue Recognition",
+      "description": "View and analyze account balances over specific periods with the trial balance report."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/data-reconciliation.md",
+      "title": "Data reconciliation with Stripe reports",
+      "section": "Revenue Recognition",
+      "description": "Learn how to reconcile revenue recognition data with other financial reports."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/methodology/refunds-and-disputes.md",
+      "title": "Revenue Recognition with refunds and disputes",
+      "section": "Revenue Recognition",
+      "description": "Understand how refunds and disputes impact your revenue."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/performance-obligations-api.md",
+      "title": "Revenue Recognition Performance Obligations API",
+      "section": "Revenue Recognition",
+      "description": "Learn how to model performance obligation fulfillment in Stripe Revenue Recognition."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/data-import/manage-imported-data.md",
+      "title": "Manage imported data",
+      "section": "Revenue Recognition",
+      "description": "Search for and manage existing imported data."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/connect/direct-charges.md",
+      "title": "Revenue Recognition for direct charges",
+      "section": "Revenue Recognition",
+      "description": "Learn how revenue recognition works with direct charges."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/connect/destination-charges.md",
+      "title": "Revenue Recognition for destination charges",
+      "section": "Revenue Recognition",
+      "description": "Learn how revenue recognition works with destination charges."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/data-import/google-play.md",
+      "title": "Stripe Connector for Google Play",
+      "section": "Revenue Recognition",
+      "description": "Manage your revenue recognition in Stripe by importing data from Google Play."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/connect/charges-transfers.md",
+      "title": "Revenue Recognition for separate charges and transfers",
+      "section": "Revenue Recognition",
+      "description": "Learn how revenue recognition works with separate charges and transfers."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/overrides.md",
+      "title": "Revenue Recognition transaction overrides",
+      "section": "Revenue Recognition",
+      "description": "Learn how to make manual corrections to your revenue recognition reports."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/data-import/error-handling.md",
+      "title": "Error handling for data import",
+      "section": "Revenue Recognition",
+      "description": "Learn how to handle and recover from errors received when importing revenue recognition data."
+    },
+    {
+      "url": "https://docs.stripe.com/revenue-recognition/reports/sigma-and-sdp.md",
+      "title": "Revenue Recognition reports in Sigma and SDP",
+      "section": "Revenue Recognition",
+      "description": "Run prebuilt Revenue Recognition reports or build custom queries in Sigma."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/requirements.md",
+      "title": "Treasury for platforms requirements",
+      "section": "Treasury",
+      "description": "Understand the requirements for using Treasury for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/examples/moving-money.md",
+      "title": "Using Treasury for platforms to move money",
+      "section": "Treasury",
+      "description": "Learn how to use SetupIntents and PaymentMethods, and how to verify bank accounts with Treasury for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/payouts.md",
+      "title": "Payouts and top-ups from payments balance",
+      "section": "Treasury",
+      "description": "Learn how to move money between payments account balances and financial account balances."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/compliance.md",
+      "title": "Treasury for platforms product marketing, design, and compliance guidelines",
+      "section": "Treasury",
+      "description": "Learn how to keep your Treasury for platforms program and marketing campaigns compliant."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/compliance/disclosure.md",
+      "title": "Treasury Disclosure Component",
+      "section": "Treasury",
+      "description": "Learn how to embed a Treasury disclosure component directly onto your website."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/timelines.md",
+      "title": "Money movement timelines",
+      "section": "Treasury",
+      "description": "Learn about the timelines for various types of money movement with Treasury for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/into/inbound-transfers.md",
+      "title": "Moving money with using InboundTransfer objects",
+      "section": "Treasury",
+      "description": "Learn how to transfer money from another account you own into a financial account."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/working-with-bankaccount-objects.md",
+      "title": "Working with SetupIntents, PaymentMethods, and BankAccounts",
+      "section": "Treasury",
+      "description": "Set up money movements with Treasury for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/financial-accounts.md",
+      "title": "Working with financial accounts",
+      "section": "Treasury",
+      "description": "Use financial accounts to store, send, and receive funds."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/moving-money-into-financial-accounts.md",
+      "title": "Moving money into financial accounts",
+      "section": "Treasury",
+      "description": "Learn the requests available to move money into financial accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/examples/fraud-guide.md",
+      "title": "Treasury for platforms fraud guide",
+      "section": "Treasury",
+      "description": "Learn best practices for managing fraud as a platform."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/working-with-balances-and-transactions.md",
+      "title": "Working with balances and transactions",
+      "section": "Treasury",
+      "description": "Learn about financial account balances and the effect transactions have on them."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/connected-accounts.md",
+      "title": "Working with connected accounts",
+      "section": "Treasury",
+      "description": "Request the treasury capability and collect onboarding requirements for your connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/out-of/outbound-payments.md",
+      "title": "Moving money using OutboundPayment objects",
+      "section": "Treasury",
+      "description": "Learn how to create outbound payments to move money out of financial accounts to third parties."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/fifth-third-migration.md",
+      "title": "Customize your migration to Fifth Third Bank",
+      "section": "Treasury",
+      "description": "Develop a custom plan to migrate your existing Treasury for platforms integration to Fifth Third Bank."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/examples/financial-accounts.md",
+      "title": "Use Treasury for platforms and Issuing to set up financial accounts and cards",
+      "section": "Treasury",
+      "description": "Follow a sample Treasury for platforms and Issuing integration that sets up a financial account and creates cards."
+    },
+    {
+      "url": "https://docs.stripe.com/reports/administrative-facilitation-fee-report.md",
+      "title": "Administrative facilitation fee report",
+      "section": "Treasury",
+      "description": "Analyze your administrative facilitation fees by date and account."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/examples/onboarding-guide.md",
+      "title": "Treasury for platforms connected account onboarding guide",
+      "section": "Treasury",
+      "description": "Learn how to onboard your connected accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/access.md",
+      "title": "Get started with API access to Treasury for platforms",
+      "section": "Treasury",
+      "description": "Test in a sandbox environment to experiment before going live."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/out-of/outbound-transfers.md",
+      "title": "Moving money using OutboundTransfer objects",
+      "section": "Treasury",
+      "description": "Learn how to transfer money out of financial accounts to external accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/marketing-financial-accounts.md",
+      "title": "Marketing Treasury for platforms",
+      "section": "Treasury",
+      "description": "Create precise messaging for your users that complies with regulations."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/platform-financial-account.md",
+      "title": "Platform financial accounts",
+      "section": "Treasury",
+      "description": "Learn about the financial account for your platform."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/regulatory-receipts.md",
+      "title": "Regulatory receipts",
+      "section": "Treasury",
+      "description": "Learn about hosted transaction receipts."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/accounts-structure.md",
+      "title": "Accounts structure",
+      "section": "Treasury",
+      "description": "Learn how the account components of Treasury for platforms interact."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/handling-complaints.md",
+      "title": "Handling complaints",
+      "section": "Treasury",
+      "description": "Learn how to properly handle complaints about Treasury for platforms or Stripe Issuing."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/into/received-credits.md",
+      "title": "Moving money using ReceivedCredit objects",
+      "section": "Treasury",
+      "description": "Learn how to move money into a financial account from another financial account or bank account."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/issuing-cards.md",
+      "title": "Working with Stripe Issuing cards",
+      "section": "Treasury",
+      "description": "Learn how to integrate Stripe Issuing with Treasury for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/examples/webhooks.md",
+      "title": "Webhooks for Stripe Issuing and Treasury for platforms",
+      "section": "Treasury",
+      "description": "Learn about webhook events for Stripe Issuing and Treasury for platforms and why they occur."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/moving-money-out.md",
+      "title": "Moving money out of Treasury for platforms",
+      "section": "Treasury",
+      "description": "Learn the requests available to move money out of financial accounts."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/fifth-third-get-started.md",
+      "title": "Build a new Treasury for platforms integration with Fifth Third Bank",
+      "section": "Treasury",
+      "description": "Get started with Treasury for platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/out-of/received-debits.md",
+      "title": "Moving money using ReceivedDebit objects",
+      "section": "Treasury",
+      "description": "Learn how external account holders can pull funds from a financial account."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/into/credit-reversals.md",
+      "title": "Moving money using CreditReversal objects",
+      "section": "Treasury",
+      "description": "Learn how you can return funds from received credits that add money to your financial account."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/out-of/debit-reversals.md",
+      "title": "Moving money using DebitReversal objects",
+      "section": "Treasury",
+      "description": "Learn how you can retrieve funds taken out of a financial account from an external account holder."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/account-management/supportability.md",
+      "title": "Treasury for platforms supportability for connected accounts",
+      "section": "Treasury",
+      "description": "Learn how Stripe evaluates connected accounts for Treasury for platforms supportability."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/remote-check-acceptance.md",
+      "title": "Remote check acceptance",
+      "section": "Treasury",
+      "description": "Learn how to accept checks into your financial account."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/moving-money/noc-sec-handling.md",
+      "title": "ACH NOC and SEC handling",
+      "section": "Treasury",
+      "description": "Learn how external account information is updated."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/remote-check-acceptance-testing.md",
+      "title": "Test a remote check acceptance integration",
+      "section": "Treasury",
+      "description": "Use a sandbox to test your integration and transition statuses."
+    },
+    {
+      "url": "https://docs.stripe.com/treasury/connect/money-movement/remote-check-acceptance-review-guide.md",
+      "title": "Remote check acceptance review guidelines",
+      "section": "Treasury",
+      "description": "Learn best practices for reviewing checks."
+    },
+    {
+      "url": "https://docs.stripe.com/development/dashboard/request-logs.md",
+      "title": "View API request logs",
+      "section": "Sigma",
+      "description": "Filter API request logs and view log entries in the Developers Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/analytics/acceptance.md",
+      "title": "Acceptance analytics",
+      "section": "Sigma",
+      "description": "Understand what affects payment acceptance and why payments fail or are declined."
+    },
+    {
+      "url": "https://docs.stripe.com/development/dashboard/events.md",
+      "title": "View events and event object payloads",
+      "section": "Sigma",
+      "description": "View events triggered by your account and their event object payload in the Developers Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/stripe-data/migrate-queries.md",
+      "title": "Migrate queries",
+      "section": "Sigma",
+      "description": "Migrate your Sigma queries from Presto to Trino."
+    },
+    {
+      "url": "https://docs.stripe.com/payment-links/customize.md",
+      "title": "Customize checkout for Payment Links",
+      "section": "Payment Links",
+      "description": "Collect additional information, taxes, or update your branding."
+    },
+    {
+      "url": "https://docs.stripe.com/payments/no-code/charge-shipping.md",
+      "title": "Charge for shipping",
+      "section": "Payment Links",
+      "description": "Create different shipping rates for your customers."
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment-link.md",
+      "title": "Payment Link",
+      "section": "Payment Links",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/api/payment-link/object.md",
+      "title": "The Payment Link object",
+      "section": "Payment Links",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention.md",
+      "title": "Understand fraud",
+      "section": "Radar",
+      "description": "Learn how to identify fraud, and design a strategy to prevent it."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/rules.md",
+      "title": "Fraud prevention rules",
+      "section": "Radar",
+      "description": "Use fraud prevention rules to help protect your business."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/optimize-risk-factors.md",
+      "title": "Optimize risk factors",
+      "section": "Radar",
+      "description": "Adhere to our recommendations to maximize Stripe Radar's effectiveness."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/rules/supported-attributes.md",
+      "title": "Supported attributes",
+      "section": "Radar",
+      "description": "Review a complete list of attributes supported in Radar rules."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/monitoring-programs.md",
+      "title": "Dispute and fraud card monitoring programs",
+      "section": "Radar",
+      "description": "Learn about the monitoring programs operated by the card networks, and what to do if you're placed into one."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention/card-testing.md",
+      "title": "Protect yourself from card testing",
+      "section": "Radar",
+      "description": "Learn about this fraudulent activity and how to protect yourself against it."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/rules/reference.md",
+      "title": "Rules reference",
+      "section": "Radar",
+      "description": "Learn about the structure of rules and the order in which Radar processes them."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention/best-practices.md",
+      "title": "Best practices for preventing fraud",
+      "section": "Radar",
+      "description": "Learn how to use best practices to protect against disputes and fraudulent payments."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention/verification.md",
+      "title": "Card verification checks",
+      "section": "Radar",
+      "description": "Learn how to make use of card verification checks to protect against disputes and fraud."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/measuring.md",
+      "title": "Measuring disputes",
+      "section": "Radar",
+      "description": "Learn about the potential issues that occur from excessive disputes, and how to avoid them."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/risk-settings.md",
+      "title": "Risk setting and risk controls",
+      "section": "Radar",
+      "description": "Automatically adjust which payments you block based on dynamic detection."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention/advanced-fraud-detection.md",
+      "title": "Advanced fraud detection",
+      "section": "Radar",
+      "description": "Learn about tools developers can use to maximize Stripe's ability to prevent fraudulent payments."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention/fraud-types.md",
+      "title": "Common types of online fraud",
+      "section": "Radar",
+      "description": "Learn about the different kinds of fraud and what your liability is."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/prevention/identifying-fraud.md",
+      "title": "Identifying potential fraud",
+      "section": "Radar",
+      "description": "Learn about the most common fraud indicators."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/lists.md",
+      "title": "Lists",
+      "section": "Radar",
+      "description": "Create your own lists of information to block, allow, or review matching payments."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/match.md",
+      "title": "High risk merchant lists",
+      "section": "Radar",
+      "description": "Learn the criteria for inclusion in MATCH and VMSS lists."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/reviews/risk-insights.md",
+      "title": "Risk insights",
+      "section": "Radar",
+      "description": "Understand risk factors and details about a particular payment."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/reviews/auth-and-capture.md",
+      "title": "Review uncaptured payments",
+      "section": "Radar",
+      "description": "Learn how to use reviews if your Stripe integration uses auth and capture."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/radar-session.md",
+      "title": "Provide Radar additional fraud data",
+      "section": "Radar",
+      "description": "Learn how to provide critical data for improved fraud protection."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/testing.md",
+      "title": "Testing Stripe Radar",
+      "section": "Radar",
+      "description": "Use the following information to test your fraud prevention strategy."
+    },
+    {
+      "url": "https://docs.stripe.com/connect/disputes.md",
+      "title": "Disputes on Connect platforms",
+      "section": "Radar",
+      "description": "Learn about the dispute responsibilities on Connect platforms."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/api.md",
+      "title": "Use the API to respond to disputes",
+      "section": "Radar",
+      "description": "Learn how to manage disputes programmatically."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/analytics.md",
+      "title": "Radar analytics center",
+      "section": "Radar",
+      "description": "Review fraud patterns and their impact on your business in the Dashboard."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/api/visa-ce3.md",
+      "title": "Visa Compelling Evidence 3.0 disputes",
+      "section": "Radar",
+      "description": "Use the API and Visa's Compelling Evidence 3.0 to respond to qualifying disputes."
+    },
+    {
+      "url": "https://docs.stripe.com/radar/analytics/fraud-insights.md",
+      "title": "Fraud insights",
+      "section": "Radar",
+      "description": "Review fraud trends specific to your business so you can tailor your strategy."
+    },
+    {
+      "url": "https://docs.stripe.com/disputes/api/visa-compliance.md",
+      "title": "Visa compliance disputes",
+      "section": "Radar",
+      "description": "Use the API to respond to Visa compliance disputes."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/readers/product-sheets.md",
+      "title": "Stripe Terminal reader product sheets",
+      "section": "Terminal",
+      "description": "Learn about Stripe Terminal hardware specifications."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/payments/setup-reader/stripe-m2.md",
+      "title": "Set up Stripe Reader M2",
+      "section": "Terminal",
+      "description": "Learn how to set up the Stripe Reader M2."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/quickstart.md",
+      "title": "Accept in-person payments",
+      "section": "Terminal",
+      "description": ""
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/readers/bbpos-wisepos-e.md",
+      "title": "BBPOS WisePOS E",
+      "section": "Terminal",
+      "description": "Learn about the BBPOS WisePOS E reader."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/features/saving-payment-details/overview.md",
+      "title": "Collect and save payment details for future use",
+      "section": "Terminal",
+      "description": "Use your Stripe Terminal integration to collect and save payment methods for returning customers."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/readers/stripe-reader-s700-s710.md",
+      "title": "Stripe Reader S700/S710",
+      "section": "Terminal",
+      "description": "Learn about Stripe Reader S700/S710."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/features/apps-on-devices/overview.md",
+      "title": "Apps on Devices",
+      "section": "Terminal",
+      "description": "Learn about deploying your Android POS apps on Stripe smart readers."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/payments/setup-reader/bbpos-wisepad3.md",
+      "title": "Set up BBPOS WisePad 3",
+      "section": "Terminal",
+      "description": "Learn how to set up the BBPOS WisePad 3."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/features/receipts.md",
+      "title": "Provide receipts",
+      "section": "Terminal",
+      "description": "Use Stripe to provide your customers with receipts that meet card network rules."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/fleet/locations-and-zones.md",
+      "title": "Manage locations",
+      "section": "Terminal",
+      "description": "Group and manage your readers by physical location."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/example-applications.md",
+      "title": "Example applications",
+      "section": "Terminal",
+      "description": "Try Stripe Terminal by using the example applications and simulated reader."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/readers/stripe-m2.md",
+      "title": "Stripe Reader M2",
+      "section": "Terminal",
+      "description": "Learn about the Stripe Reader M2 Bluetooth reader."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/network-requirements.md",
+      "title": "Terminal network requirements",
+      "section": "Terminal",
+      "description": "Make sure your network is ready for Terminal, and troubleshoot common issues."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/smart-readers.md",
+      "title": "Stripe Terminal smart readers",
+      "section": "Terminal",
+      "description": "Learn about Stripe's pre-certified in-person payment readers."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/features/apps-on-devices/build.md",
+      "title": "Build and test your app",
+      "section": "Terminal",
+      "description": "Learn how to build and test your app using a DevKit."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/mobile-readers.md",
+      "title": "Stripe Terminal mobile readers",
+      "section": "Terminal",
+      "description": "Learn about Stripe pre-certified in-person payment mobile readers."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/readers/bbpos-wisepad3.md",
+      "title": "BBPOS WisePad 3",
+      "section": "Terminal",
+      "description": "Learn about the BBPOS WisePad 3 reader."
+    },
+    {
+      "url": "https://docs.stripe.com/terminal/references/sdk-migration-guide.md",
+      "title": "Terminal SDK migration guide",
+      "section": "Terminal",
+      "description": "Learn how to migrate to version 5.0.0 of the Stripe Terminal SDK."
+    },
+    {
+      "url": "https://docs.stripe.com/changelog.md",
+      "title": "Changelog",
+      "section": "Optional",
+      "description": "Keep track of changes and upgrades to the Stripe API."
+    }
+  ]
+}
